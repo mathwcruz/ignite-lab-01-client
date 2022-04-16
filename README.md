@@ -36,7 +36,7 @@
 
 # 🎲 How to run the app
 To run the application on the web, follow the instructions from your terminal:
-- `cd ignite-lab-01-client` and `code ignite-lab-01-client`
+- `code ignite-lab-01-client`
 - Run `yarn` or `npm i` to install project dependencies
 - After that, run `yarn dev` or `npm run dev` to run the app, will open at the address `localhost:3000`
 <br>
