@@ -1,6 +1,6 @@
 <h1 align="center">Front end application  💻</h1>
 
-<p><h2 align="center">Platform to find courses you like and enroll in them</h2> </p>
+<h3 align="center">Platform to find courses you like and enroll in them</h3>
 
 <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
 
