@@ -70,4 +70,4 @@ For a better experience, follow the intructions below:
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
 <br>
 
- ### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
+ ### <p> <h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2> </p>
