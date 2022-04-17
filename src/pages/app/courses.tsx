@@ -4,38 +4,14 @@ import Link from "next/link";
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 import { CalendarIcon } from "@heroicons/react/solid";
 
-import { withApollo } from "lib/withApollo";
-import { useMe } from "graphql/generated/page";
+import { withApollo } from "../../lib/withApollo";
+import { useMe } from "../../graphql/generated/page";
 
-import { Header } from "components/Header";
-import { Footer } from "components/Footer";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 
-const applicants = [
-  {
-    name: "Emily Selman",
-    email: "emily.selman@example.com",
-    imageUrl:
-      "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Kristin Watson",
-    email: "kristin.watson@example.com",
-    imageUrl:
-      "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Emma Dorsey",
-    email: "emma.dorsey@example.com",
-    imageUrl:
-      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-];
-
-const dateFormatter = new Intl.DateTimeFormat("pt-BR", {
-  day: "2-digit",
-  month: "long",
-  year: "numeric",
-});
+import { applicants } from "../../utils/pages/app";
+import { dateFormatter } from "../../utils/formatters/date-formatter";
 
 function Courses() {
   const { data } = useMe();
@@ -82,7 +58,7 @@ function Courses() {
                                 aria-hidden="true"
                               />
                               <p>
-                                Turma iniciou em{" "}
+                                Turma inicia em{" "}
                                 <time dateTime={enrollment.createdAt}>
                                   {dateFormatter.format(
                                     new Date(enrollment.createdAt)

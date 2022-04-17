@@ -15,7 +15,7 @@ export default async function handler(
   const { accessToken } = await getAccessToken(req, res);
 
   return httpProxyMiddleware(req, res, {
-    target: process.env.NEXT_PUBLIC_GRAPHQL_API_URL,
+    target: process.env.NEXT_PUBLIC_BASE_GRAPHQL_API_URL,
     headers: {
       Authorization: `Bearer ${accessToken}`,
     },

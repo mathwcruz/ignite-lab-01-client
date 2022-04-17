@@ -1,16 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { Fragment } from "react";
+import Link from "next/link";
+import { useUser } from "@auth0/nextjs-auth0";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { useUser } from "@auth0/nextjs-auth0";
 
-const navigation = [
-  { name: "Faça sua matrícula", href: "/enroll" },
-  { name: "Nosso blog", href: "#" },
-  { name: "Histórias de alunos", href: "#" },
-  { name: "Sobre a empresa", href: "#" },
-];
+import { navigation } from "../utils/pages/header";
 
 export function Header() {
   const { user } = useUser();

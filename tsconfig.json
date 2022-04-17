@@ -7,10 +7,6 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "baseUrl": "src",
-    "paths": {
-      "~/*": ["*"]
-    },
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -19,6 +15,11 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/utils/pages/footer.tss"
+  ],
   "exclude": ["node_modules"]
 }

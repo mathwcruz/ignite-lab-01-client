@@ -25,7 +25,7 @@ export function getApolloClient(
   ssrCache?: NormalizedCacheObject
 ) {
   const httpLink = createHttpLink({
-    uri: `${process.env.AUTH0_BASE_URL}api`,
+    uri: `${process.env.NEXT_PUBLIC_BASE_API_URL}api`,
     fetch,
   });
 

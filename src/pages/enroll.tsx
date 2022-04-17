@@ -5,15 +5,15 @@ import { toast } from "react-toastify";
 import {
   getServerPageGetProducts,
   ssrGetProducts,
-} from "graphql/generated/pagePublic";
+} from "../graphql/generated/pagePublic";
 import {
   GetProductsQuery,
   useCreatePurchaseMutation,
-} from "graphql/generated/graphql";
-import { withApollo } from "lib/withApollo";
+} from "../graphql/generated/graphql";
+import { withApollo } from "../lib/withApollo";
 
-import { Header } from "components/Header";
-import { Footer } from "components/Footer";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
 interface EnrollProps {
   data: GetProductsQuery;
@@ -29,7 +29,7 @@ function Enroll({ data }: EnrollProps) {
       },
     });
 
-    toast.success("Compra realizada com sucesso", {
+    toast.success("Compra realizada com sucesso!", {
       position: "top-right",
       autoClose: 3000,
       hideProgressBar: false,
