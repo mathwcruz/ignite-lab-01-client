@@ -5,9 +5,18 @@
 <p align="center"> <img src="https://github.com/mathwcruz/next-auth/blob/main/.github/Ignite.png" width="1400px"/> </p>
 
 <p align="center">
+  <a href="#computer-demonstration-of-the-application">Demonstration of the application</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#star-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies-used">Technologies used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-application-installation">Application installation</a>
+</p>
+
+<br>
+
+# :computer: Demonstration of the application
+
+<p align="center">
+  <img src="./.github/desktop-demonstration.gif" width="1400px"/>
 </p>
 
 <br>
