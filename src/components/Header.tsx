@@ -53,12 +53,12 @@ export function Header() {
             <div className="hidden md:flex md:items-center md:space-x-6">
               <Link href="/app/courses">
                 <a className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-violet-600 hover:bg-violet-700">
-                  Meus cursos
+                  My courses
                 </a>
               </Link>
               <Link href="/api/auth/logout">
                 <a className="text-base font-medium text-white hover:text-gray-300">
-                  Sair do app
+                  Exit app
                 </a>
               </Link>
             </div>
@@ -66,7 +66,7 @@ export function Header() {
             <div className="hidden md:flex md:items-center md:space-x-6">
               <Link href="/api/auth/login">
                 <a className="text-base font-medium text-white hover:text-gray-300">
-                  Minha conta
+                  My account
                 </a>
               </Link>
             </div>

@@ -2,7 +2,6 @@ import {
   CashIcon,
   ChatIcon,
   CheckCircleIcon,
-  ChevronRightIcon,
   ClockIcon,
   DocumentTextIcon,
   SupportIcon,
@@ -10,46 +9,46 @@ import {
 
 export const advantages = [
   {
-    name: "Suporte 1-1",
+    name: "Support 1-1",
     description:
-      "Tire dúvidas diretamente com nosso time de devs pronto para te salvar daquele bug inesperado.",
+      "Ask questions directly with our dev team ready to save you from that unexpected bug.",
     icon: SupportIcon,
   },
   {
-    name: "Certificado de aproveitamento",
+    name: "Certificate of use",
     description:
-      "Emita um certificado de conclusão que realmente mostre seu aproveitamento no curso.",
+      "Issue a certificate of completion that really shows your achievement in the course.",
     icon: DocumentTextIcon,
   },
   {
-    name: "Comunidade de alunos(as)",
+    name: "Students community",
     description:
-      "Compartilhe sua jornada de aprendizado com milhares de outras pessoas no dia-a-dia com a comunidade exclusiva.",
+      "Share your learning journey with thousands of others everyday with the exclusive community.",
     icon: ChatIcon,
   },
   {
-    name: "Desafios práticos",
+    name: "Practical challenges",
     description:
-      "Receba desafios do mundo-real para testar suas habilidades com cada técnica aprendida durante os cursos.",
+      "Receive real-world challenges to test your skills with each technique learned during the courses.",
     icon: CheckCircleIcon,
   },
   {
-    name: "Recomendação ao mercado",
+    name: "Recommendation to the market",
     description:
-      "Receba recomendações de ótimas vagas para você iniciar sua carreira em programação ao final do curso.",
+      "Receive recommendations for great jobs to start your programming career at the end of the course.",
     icon: CashIcon,
   },
   {
-    name: "Acesso vitalício",
+    name: "Lifetime access",
     description:
-      "Não tenha pressa em estudar, receba acesso vitalício aos conteúdos dos cursos para estudar quando quiser.",
+      "Take your time to study, get lifetime access to course content to study whenever you want.",
     icon: ClockIcon,
   },
 ];
 export const blogPosts = [
   {
     id: 1,
-    title: "Como criar um cronograma de estudos utilizando Notion",
+    title: "How to create a study schedule using Notion",
     href: "#",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
@@ -68,7 +67,8 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "Qual a diferença de um ambiente confortável na hora de programar?",
+    title:
+      "What is the difference between a comfortable environment when programming?",
     href: "#",
     date: "Mar 10, 2020",
     datetime: "2020-03-10",
@@ -87,7 +87,7 @@ export const blogPosts = [
   },
   {
     id: 3,
-    title: "Dicas para manter seu setup de estudos ergonômico",
+    title: "Tips to keep your study setup ergonomic",
     href: "#",
     date: "Feb 12, 2020",
     datetime: "2020-02-12",

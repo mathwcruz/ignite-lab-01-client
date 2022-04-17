@@ -12,8 +12,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Cursos de programação</title>
-        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <title>Programming courses</title>
       </Head>
 
       <div className="bg-white">
@@ -30,23 +29,25 @@ function Home() {
                         className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                       >
                         <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">
-                          Estamos contratando
+                          We are hiring
                         </span>
-                        <span className="ml-4 text-sm">Veja nossas vagas</span>
+                        <span className="ml-4 text-sm">
+                          Checkout our vacancies
+                        </span>
                         <ChevronRightIcon
                           className="ml-2 w-5 h-5 text-gray-500"
                           aria-hidden="true"
                         />
                       </a>
                       <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                        <span className="block">Cursos de</span>
+                        <span className="block">Programming</span>
                         <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">
-                          programação
+                          courses
                         </span>
                       </h1>
                       <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                        Aprenda programação através de cursos práticos com muito
-                        código e domine as tecnologias do seu dia-a-dia.
+                        Learn programming through hands-on courses with lots of
+                        code and master your day-to-day technologies.
                       </p>
                     </div>
                   </div>
@@ -66,10 +67,10 @@ function Home() {
             <div className="relative bg-white py-16 sm:py-24 lg:py-32">
               <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                 <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">
-                  Tudo que você precisa
+                  All you need
                 </h2>
                 <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                  Vantagens de estudar conosco
+                  Advantages of studying with us
                 </p>
                 <div className="mt-12">
                   <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -130,10 +131,9 @@ function Home() {
                           <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                         </svg>
                         <p className="mt-6 text-2xl font-medium text-white">
-                          Depois que eu comecei a estudar nessa plataforma eu
-                          consegui assumir meus próprios projetos pessoais,
-                          trabalhar na empresa dos meus sonhos e avistar os
-                          próximos passos da minha carreira.
+                          After I started studying on this platform I managed to
+                          take on my own personal projects, work in the company
+                          of my dreams and see the next steps of my career.
                         </p>
                       </div>
                       <footer className="mt-6">
@@ -141,7 +141,7 @@ function Home() {
                           Carolina Torres
                         </p>
                         <p className="text-base font-medium text-cyan-100">
-                          Software Engineer @ EmpresaDosSonhos
+                          Software Engineer @Dev.to
                         </p>
                       </footer>
                     </blockquote>
@@ -154,10 +154,10 @@ function Home() {
               <div className="relative">
                 <div className="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                   <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">
-                    Aprenda mais
+                    Learn more
                   </h2>
                   <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                    Últimos posts do nosso blog
+                    Last posts of our blog
                   </p>
                 </div>
                 <div className="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">

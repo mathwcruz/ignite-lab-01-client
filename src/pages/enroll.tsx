@@ -29,7 +29,7 @@ function Enroll({ data }: EnrollProps) {
       },
     });
 
-    toast.success("Compra realizada com sucesso!", {
+    toast.success("Successful purchase!", {
       position: "top-right",
       autoClose: 3000,
       hideProgressBar: false,
@@ -43,8 +43,7 @@ function Enroll({ data }: EnrollProps) {
   return (
     <>
       <Head>
-        <title>Realizar matrícula</title>
-        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <title>Make enroll</title>
       </Head>
 
       <div className="bg-white">
@@ -53,10 +52,10 @@ function Enroll({ data }: EnrollProps) {
           <main className="py-20 max-w-7xl mx-auto ">
             <div className="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
               <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">
-                Comece a estudar
+                Start to study
               </h2>
               <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                Realizar matrícula
+                Make enroll
               </p>
             </div>
 
@@ -72,7 +71,7 @@ function Enroll({ data }: EnrollProps) {
                               {product.title}
                             </p>
                             <p className="ml-1 flex-shrink-0 font-normal text-gray-500">
-                              em Programação
+                              on Programming
                             </p>
                           </div>
                         </div>
@@ -82,7 +81,7 @@ function Enroll({ data }: EnrollProps) {
                           onClick={() => handlePurchaseProduct(product.id)}
                           className="px-2 py-1 border border-transparent text-base font-medium rounded-md text-white bg-violet-600 hover:bg-violet-700"
                         >
-                          Realizar inscrição
+                          Make subscription
                         </button>
                       </div>
                     </div>
