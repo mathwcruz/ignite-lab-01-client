@@ -11,15 +11,11 @@
   <a href="#information_source-application-installation">Application installation</a>
 </p>
 
-<br>
-
 # :computer: Demonstration of the application
 
 <p align="center">
   <img src="./.github/desktop-demonstration.gif" width="1400px"/>
 </p>
-
-<br>
 
 ## :star: Features
 - [x] User authentication
@@ -37,18 +33,14 @@
 <img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/typescript_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvdHlwZXNjcmlwdF9pY29uLnN2ZyIsImlhdCI6MTY0NjI0NjcyNiwiZXhwIjoxOTYxNjA2NzI2fQ.W404dqHwT_A4lfmg7st0cyj1aJxJH3PZtCnux_iVv_s" alt="typescript" width="70" height="70"/>
 </p>
 
-<br>
-
 ## :information_source: Application installation
 - `git clone https://github.com/mathwcruz/ignite-lab-01-client.git` to clone the repository
-<br>
 
 # 🎲 How to run the app
 To run the application on the web, follow the instructions from your terminal:
 - `code ignite-lab-01-client`
 - Run `yarn` or `npm i` to install project dependencies
 - After that, run `yarn dev` or `npm run dev` to run the app, will open at the address `localhost:3000`
-<br>
 
 For a better experience, follow the intructions below:
 - `git clone https://github.com/mathwcruz/ignite-lab-01-api-classroom.git` to clone the classroom api
@@ -56,7 +48,6 @@ For a better experience, follow the intructions below:
 - `git clone https://github.com/mathwcruz/ignite-lab-01-api-gateway.git` to clone the gateway api
 - In each api project, run `yarn` or `npm i` to install the project dependencies
 - After that, run `yarn start:dev` or `npm run start:dev` in each api project to run all the three api's, will open at the address `localhost:3333`, `localhost:3334` and `localhost:3332`
-<br>
 
 ### Author
 ---
@@ -68,6 +59,3 @@ For a better experience, follow the intructions below:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-cruz-frontend/)](https://www.linkedin.com/in/matheus-cruz-frontend/) 
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
-<br>
-
- ### <p> <h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2> </p>
