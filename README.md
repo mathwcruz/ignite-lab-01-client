@@ -14,7 +14,7 @@
 # :computer: Demonstration of the application
 
 <p align="center">
-  <img src="./.github/desktop-demonstration.gif" width="1400px"/>
+  <img src="./.github/desktop-demonstration.gif" width="100%"/>
 </p>
 
 ## :star: Features
